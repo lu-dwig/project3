@@ -7,8 +7,55 @@
     <title>Quiz</title>
 </head>
 <body>
-    <div id="introduction">
-        <h1>welcome to the quiz </h1>
+    <div class="page-1">
+        <div>
+            <input id="username">
+            <button onclick="salutation()">submit</button>
+        </div>
+        <div id="introduction">
+            <h1>welcome to the quiz</h1>  
+        </div>
     </div>
+    <div class="page-2">
+        <div class="quizs">
+                <p>Who is making the Web standards?</p>
+                <form>
+                    <input type="radio" id="the world wide web consortium" name="web standards" value="the world wide web consortium">
+                    <label for="the world wide web consortium">The world wide web consortium</label><br>
+                    <input type="radio" id="google" name="web standards" value="google">
+                    <label for="google">Google</label><br>
+                    <input type="radio" id="mozilla" name="web standards" value="mozilla">
+                    <label for="mozilla">Mozilla</label><br>
+                    <input type="radio" id="microsoft" name="web standards" value="microsoft">
+                    <label for="microsoft">Microsoft</label><br>
+                </form>
+                <p>Inline elememts are normally displayed without starting a new line</p>
+                <form>
+                    <input type="radio" id="true" name="Inline element" value="true">
+                    <label for="true">True</label><br>
+                    <input type="radio" id="true" name="Inline element" value="true">
+                    <label for="true">False</label>
+                </form>
+                <p>Block elements are normally displayed withuot starting a new line</p>
+                <form>
+                    <input type="radio" id="true" name="Inline element" value="true">
+                    <label for="true">True</label><br>
+                    <input type="radio" id="true" name="Inline element" value="true">
+                    <label for="true">False</label>
+                </form>
+                <p>Which HTML attribute specifies an alternate text for an image, if the image is not displayed?</p>
+                <form>
+                    <input type="radio" id="title" name="HTML_attribute" value="title">
+                    <label for="title">Title</label><br>
+                    <input type="radio" id="true" name="HTML_attribute" value="alt">
+                    <label for="alt">alt</label><br>
+                    <input type="radio" id="true" name="HTML_attribute" value="src">
+                    <label for="src">src</label><br>
+                    <input type="radio" id="true" name="HTML_attribute" value="longdesc">
+                    <label for="longdesc">longdesc</label>
+                </form>
+        </div>
+    </div>
+
 </body>
 </html>
