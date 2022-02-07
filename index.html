@@ -56,10 +56,10 @@
                 </form>
                 <p>In HTML you can embed SVG elements directly into an HTML page</p>
                 <form>
-                    <input type="radio" id="" name="" value="true">
+                    <input type="radio" id="true" name="SVG_elements" value="true">
                     <label for="true">true</label><br>
-                    <input type="radio" id="true" name="Inline element" value="true">
-                    <label for="true">false</label>
+                    <input type="radio" id="false" name="SVG_elements" value="false">
+                    <label for="false">false</label>
                 </form>
         </div>
     </div>
@@ -77,37 +77,39 @@
         </form>
         <p>Which HTML attribute is used to define inline styles?</p>
         <form>
-            <input type="radio"> <label for="Styles">styles</label><br>
-            <input type="radio"> <label for="style">style</label><br>
-            <input type="radio"> <label for="font">font</label><br>
-            <input type="radio"> <label for="class">class</label><br>
+            <input type="radio" id="styles" name="inline_styles" value="styles">  
+            <label for="Styles">styles</label><br>
+            <input type="radio" id="style" name="inline_styles" value="style"> 
+            <label for="style">style</label><br>
+            <input type="radio" id="font" name="inline_styles" value="font"> <label for="font">font</label><br>
+            <input type="radio"id="class" name="inline_styles" value="class"> <label for="class">class</label><br>
         </form>
         <p>which property is used to change the background color </p>
         <form>
-            <input type="radio"> <label for="">background-color</label><br>
-            <input type="radio"> <label for="">bgcolor</label><br>
-            <input type="radio"> <label for="">color</label>
+            <input type="radio" id="background-color" name="background_color" value="background-color"> <label for="">background-color</label><br>
+            <input type="radio" id="bgcolor" name="background_color" value="bgcolor"> <label for="">bgcolor</label><br>
+            <input type="radio" id="color" name="background_color" value="color"> <label for="">color</label>
         </form>
         <p>which CSS property controls the text size</p>
         <form>
-            <input type="radio"> <label for="">text-style</label><br>
-            <input type="radio"> <label for="">font-size</label><br>
-            <input type="radio"> <label for="">font-style</label><br>
-            <input type="radio"> <label for="">text-size</label><br>
+            <input type="radio" id="text-style" name="text_size" value=""> <label for="">text-style</label><br>
+            <input type="radio" id="font-size" name="text_size" value="font-size"> <label for="">font-size</label><br>
+            <input type="radio" id="font-style" name="text_size" value="font-style"> <label for="">font-style</label><br>
+            <input type="radio" id="text-size" name="text_size" value="text-size"> <label for="">text-size</label><br>
         </form>
         <p>How do you make each word in a text start with a capital letter</p>
-        <input type="radio"> <label for="">text-transformation:capitalize</label><br>
-        <input type="radio"> <label for="">transform:capitalize</label><br>
-        <input type="radio"> <label for="">capitalize</label><br>
-        <input type="radio"> <label for="">you cant do that with CSS</label><br>
+        <input type="radio" id="text-transformation:capitalize" name="capital_letters" value="text-transformation:capitalize"> <label for="">text-transformation:capitalize</label><br>
+        <input type="radio" id="transform:capitalize" name="capital_letters" value="transform:capitalize"> <label for="">transform:capitalize</label><br>
+        <input type="radio" id="capitalize" name="capital_letters" value="capitalize"> <label for="">capitalize</label><br>
+        <input type="radio" id="you can't do that with CSS" name="capital_letters" value="you can't do that with CSS"> <label for="">you can't do that with CSS</label><br>
     </div>
     <div class="page-4">
         <p>How do you write "Hello world" in an alert box? </p>
         <form>
-            <input type="radio"> <label for="">msg("Hello world")</label><br>
-            <input type="radio"> <label for="">msgBox("Hello World")</label><br>
-            <input type="radio"> <label for="">alert("Hello World")</label><br>
-            <input type="radio"> <label for="">alertbox("Hello World")</label><br>
+            <input type="radio" id="" name="" value=""> <label for="">msg("Hello world")</label><br>
+            <input type="radio" id="" name="" value=""> <label for="">msgBox("Hello World")</label><br>
+            <input type="radio" id="" name="" value=""> <label for="">alert("Hello World")</label><br>
+            <input type="radio" id="" name="" value=""> <label for="">alertbox("Hello World")</label><br>
         </form>
         <p>How do you create a function in Jave</p>
         <form>
@@ -134,8 +136,13 @@
             <input type="radio"> <label for="">if(i<>5)</label><br>
             <input type="radio"> <label for="">if i<>5</label><br>
             <input type="radio"> <label for="">if(i !=5)</label><br>
+        <p>What is the correct way to write a Javascript array?</p>
+        <input type="radio"> <label for="">var colors =1= ("red"), 2=("green"),3=("blue")</label><br>
+        <input type="radio"> <label for="">var colors=["red","green","blue"]<label><b>
+        <input type="radio"> <label for="">var colors=(1:"red",2:"green",3"blue")</label><br>
+        <input type="radio"> <label for="">var colors="red","green","blue"</label><br>
         </form>
     </div>
-
+    <button>submit</button>
 </body>
 </html>
